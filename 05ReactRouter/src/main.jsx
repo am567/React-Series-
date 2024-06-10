@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Layout.jsx'
 import Home from './Components/Home/Home.jsx'
 import About from './Components/About/About.jsx'
+import Contact from './Components/Contact/Contact.jsx'
 
 const router = createBrowserRouter([       // this router come from REACT-ROUTER-DOM and we take array inside it ...
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([       // this router come from REACT-ROUTER
         path: "about",
         element: <About />
 
+      },
+      {
+        path: "contact",
+        element: <Contact />
       }
     ]
   }
